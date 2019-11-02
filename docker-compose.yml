@@ -1,0 +1,12 @@
+version: '2'
+services:
+ calibre:
+    build: .
+    #image: asdlfkj31h/debian-novnc:0.1
+    ports:
+    - 5901:5901
+    - 6901:6901
+    volumes:
+    - ./calibre:/headless/.config/calibre
+    - ./library:/headless/Calibre Library
+
