@@ -1,4 +1,5 @@
 FROM asdlfkj31h/debian-novnc:0.1
+MAINTAINER Gerolf Ziegenhain <gerolf.ziegenhain@gmail.com>
 
 USER 0
 
