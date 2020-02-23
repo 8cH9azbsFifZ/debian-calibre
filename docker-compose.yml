@@ -1,10 +1,11 @@
 version: '2'
 services:
  calibre:
-    image: asdlfkj31h/debian-calibre:0.2
+    image: asdlfkj31h/debian-calibre:0.4
     ports:
     - 5901:5901
     - 6901:6901
+    - 8080:8080
     volumes:
     - ./calibre:/headless/.config/calibre
     - ./library:/headless/Calibre Library
