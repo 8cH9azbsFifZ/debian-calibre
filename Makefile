@@ -1,4 +1,4 @@
-VER=0.5
+VER=0.6
 build:
 	docker build . -t asdlfkj31h/debian-calibre:${VER} -t debian-calibre:${VER} -t asdlfkj31h/debian-calibre:latest
 
